@@ -1,0 +1,217 @@
+/* ================================
+   SHOPPER SPECTRUM HOME PAGE
+================================ */
+
+/* .stApp{
+    background: linear-gradient(135deg,#0F172A,#1E293B,#111827);
+} */
+
+/* Main Container */
+
+.home-container{
+
+    max-width:1100px;
+
+    margin:auto;
+
+    padding:50px;
+
+    border-radius:25px;
+
+    background:rgba(255,255,255,0.08);
+
+    backdrop-filter:blur(12px);
+
+    box-shadow:0px 10px 35px rgba(0,0,0,.4);
+
+}
+
+/* Main Heading */
+
+.home-title{
+
+    font-size:58px;
+
+    font-weight:900;
+
+    color:#38BDF8;
+
+    text-align:center;
+
+    letter-spacing:1px;
+
+    margin-bottom:10px;
+
+    text-shadow:2px 2px 8px rgba(0,0,0,.5);
+
+}
+
+/* Subtitle */
+
+.home-subtitle{
+
+    text-align:center;
+
+    color:#444fc6;
+
+    font-size:24px;
+
+    font-weight:500;
+
+    margin-bottom:45px;
+
+    line-height:1.6;
+
+}
+
+/* Feature Cards */
+
+.feature-card{
+
+    background:linear-gradient(135deg,#1E3A8A,#2563EB);
+
+    border-radius:18px;
+
+    padding:22px;
+
+    margin-top:18px;
+
+    transition:.4s;
+
+    box-shadow:0px 8px 20px rgba(0,0,0,.25);
+
+}
+
+/* Hover Animation */
+
+.feature-card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0px 15px 35px rgba(56,189,248,.45);
+
+}
+
+/* Card Heading */
+
+.feature-title{
+
+    color:white;
+
+    font-size:28px;
+
+    font-weight:700;
+
+    margin-bottom:8px;
+
+}
+
+/* Card Description */
+
+.feature-desc{
+
+    color:#F8FAFC;
+
+    font-size:18px;
+
+    line-height:1.7;
+
+}
+
+/* Footer */
+
+.footer{
+
+    margin-top:40px;
+
+    text-align:center;
+
+    color:#444fc6;
+
+    font-size:18px;
+
+    font-style:italic;
+
+}
+
+/* ===========================
+   Developer Card
+=========================== */
+
+.developer-card{
+
+    margin-top:45px;
+
+    background:linear-gradient(135deg,#0F172A,#1E3A8A);
+
+    border:2px solid #38BDF8;
+
+    border-radius:20px;
+
+    padding:25px;
+
+    text-align:center;
+
+    box-shadow:0px 8px 25px rgba(56,189,248,.35);
+
+    transition:0.4s;
+
+}
+
+.developer-card:hover{
+
+    transform:scale(1.02);
+
+    box-shadow:0px 12px 35px rgba(56,189,248,.6);
+
+}
+
+.developer-title{
+
+    color:#94A3B8;
+
+    font-size:18px;
+
+    letter-spacing:3px;
+
+    text-transform:uppercase;
+
+    font-weight:bold;
+
+}
+
+.developer-name{
+
+    font-size:36px;
+
+    font-weight:900;
+
+    color:#38BDF8;
+
+    margin-top:10px;
+
+    text-shadow:2px 2px 10px rgba(56,189,248,.5);
+
+}
+
+.developer-role{
+
+    font-size:20px;
+
+    color:white;
+
+    margin-top:8px;
+
+    font-style:italic;
+
+}
+
+.developer-tech{
+
+    margin-top:18px;
+
+    font-size:16px;
+
+    color:#CBD5E1;
+
+}
